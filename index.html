@@ -6,8 +6,50 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="/calculator/styles.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="calculatorBOX">
+            <div class="display">
+                <div class="viewer">CALCULATOR READY</div>
+            </div>
+            <div class="pad">
+                <div class="buttons">
+                    <button class="clear">AC</button>
+                    <div class="numbers">
+                        <div class="row123">
+                            <button class="number" id="btn1">1</button>
+                            <button class="number" id="btn2">2</button>
+                            <button class="number" id="btn3">3</button>
+                        </div>
+                        <div class="row456">
+                            <button class="number" id="btn4">4</button>
+                            <button class="number" id="btn5">5</button>
+                            <button class="number" id="btn6">6</button>
+                        </div>
+                        <div class="row789">
+                            <button class="number" id="btn7">7</button>
+                            <button class="number" id="btn8">8</button>
+                            <button class="number" id="btn9">9</button>
+                        </div>
+                        <div class="row0">
+                            <button class="number" id="btn0">0</button>
+                            <button class="number" id="btnPeriod">.</button>
+                        </div>
+                    </div>
+                    <div class="core">
+                        <button class="add">+</button>
+                        <button class="subtract">-</button>
+                        <button class="multiply">x</button>
+                        <button class="divide">/</button>
+                    </div>
+                    <button class="equal">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
